@@ -18,5 +18,15 @@ body {
     padding: 20px;
     border: 5px solid #FFE500;
     margin-right: 10px;
+    animation: breathe 0.5s infinite;
 }
 
+@keyframes breathe {
+    0% {
+        box-shadow: 0 0 0 1px #FFE500;
+       }
+    100% {
+     box-shadow: 0 0 0 10px #FFE500;
+
+    }
+   }
