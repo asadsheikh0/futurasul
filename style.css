@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.row img {
+    height: auto;
+    width: auto;
+    max-width: 20%;
+    padding: 20px;
+}
+

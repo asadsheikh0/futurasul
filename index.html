@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
 <body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
 
 <h1>FUTURASUL</h1>
-<p>testing</p>
+<p>coming soon</p>
+
+<div class="row">
+    <img id="front_look" src="images/front_look.JPG" style="width:100%">
+    <img id="back_look" src="images/back_look.jpg" style="width:100%">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#front_look").draggable();
+            $("#back_look").draggable();
+        });
+    </script>
+</div>
 </body>
 </html>
