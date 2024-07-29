@@ -1,12 +1,14 @@
 body {
     background-color: #0021CE;
     color: #FFE500;
+    text-align: center;
   }
 
 .row {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
   }
 
 .row img {
@@ -14,5 +16,7 @@ body {
     width: auto;
     max-width: 20%;
     padding: 20px;
+    border: 5px solid #FFE500;
+    margin-right: 10px;
 }
 
