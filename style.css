@@ -8,7 +8,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
 .row img {
@@ -32,9 +32,10 @@ body {
 }
 
 .desc {
-    margin-top: 100px;
+    margin-top: 80px;
+    font-size: 1.5em;
 }
 
 .title{
-    font-size: 3em;
+    font-size: 4em;
 }
