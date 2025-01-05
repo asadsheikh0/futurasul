@@ -24,6 +24,13 @@ body {
     /* animation-direction: alternate; */
 }
 
+.text-card a {
+    color: #FFE500;
+    background-color: transparent;
+    /* text-decoration: none; */
+    display: inline;
+  }
+
 .text-card p {
     text-align: left;
 }
