@@ -82,6 +82,11 @@ body {
     font-size: 4em;
 }
 
+.piece_title{
+  font-size: 2em;
+  font-weight: lighter;
+}
+
 .hover-underline-animation.center::after {
     transform-origin: bottom center;
   }
